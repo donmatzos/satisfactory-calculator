@@ -9,7 +9,7 @@ import java.util.Map;
 
 @NoArgsConstructor
 @Getter
-public final class Recipe
+public class Recipe implements Processable
 {
     private Item product;
 
@@ -27,6 +27,12 @@ public final class Recipe
         this.productionTimeInSeconds = builder.productionTimeInSeconds;
         this.isAlternate = builder.isAlternate;
         this.ingredients.putAll(builder.ingredients); // Copy ingredients
+    }
+
+    @Override
+    public String getProcessingBuilding()
+    {
+        return "";
     }
 
     public static class Builder {

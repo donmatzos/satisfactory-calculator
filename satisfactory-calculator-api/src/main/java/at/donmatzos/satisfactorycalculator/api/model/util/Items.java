@@ -1,5 +1,6 @@
 package at.donmatzos.satisfactorycalculator.api.model.util;
 
+import at.donmatzos.satisfactorycalculator.api.model.item.HealingItem;
 import at.donmatzos.satisfactorycalculator.api.model.item.Item;
 import at.donmatzos.satisfactorycalculator.api.model.item.ItemType;
 import at.donmatzos.satisfactorycalculator.api.model.item.SolidFuelItem;
@@ -114,6 +115,39 @@ public final class Items
             1440);
 
     /* <------------------------ B -----------------------> */
+    public static final Item BACON_AGARIC = new HealingItem("Bacon Agaric",
+            "https://satisfactory.wiki.gg/images/0/0f/Bacon_Agaric.png",
+            List.of(ItemType.CRAFTING_COMPONENT, ItemType.RESEARCH_MATERIAL, ItemType.EQUIPMENT_MATERIAL),
+            new Recipe(),
+            List.of(new Recipe(), new Recipe()),
+            Constants.StackSize.TWO_HUNDRED,
+            false,
+            20);
+    public static final Item BALLISTIC_WARP_DRIVE = new StackableItem("Ballistic Warp Drive",
+            "https://satisfactory.wiki.gg/images/1/10/Ballistic_Warp_Drive.png",
+            List.of(ItemType.PROJECT_ASSEMBLY_PART),
+            new Recipe(),
+            List.of(new Recipe(), new Recipe()),
+            Constants.StackSize.FIFTY,
+            true,
+            2895334);
+    public static final Item BATTERY = new SolidFuelItem("Battery",
+            "https://satisfactory.wiki.gg/images/6/6d/Battery.png",
+            List.of(ItemType.CRAFTING_COMPONENT, ItemType.FUEL),
+            new Recipe(),
+            List.of(new Recipe(), new Recipe()),
+            Constants.StackSize.TWO_HUNDRED,
+            true,
+            465,
+            6000L);
+    public static final Item BAUXITE = new StackableItem("Bauxite",
+            "https://satisfactory.wiki.gg/images/1/11/Bauxite.png",
+            List.of(ItemType.ORE, ItemType.CRAFTING_COMPONENT),
+            new Recipe(),
+            List.of(new Recipe(), new Recipe()),
+            Constants.StackSize.ONE_HUNDRED,
+            true,
+            8);
     public static final Item BIOMASS = new SolidFuelItem("Biomass",
             "https://satisfactory.wiki.gg/wiki/Biomass#/media/File:Biomass.png",
             List.of(ItemType.BIOMASS, ItemType.CRAFTING_COMPONENT, ItemType.FUEL, ItemType.BUILDING_MATERIAL, ItemType.RESEARCH_MATERIAL),
@@ -123,6 +157,17 @@ public final class Items
             true,
             12,
             180L);
+
+    /* <------------------------ C -----------------------> */
+    /* <------------------------ D -----------------------> */
+    /* <------------------------ E -----------------------> */
+    /* <------------------------ F -----------------------> */
+    /* <------------------------ G -----------------------> */
+    /* <------------------------ H -----------------------> */
+    /* <------------------------ I -----------------------> */
+    /* <------------------------ J -----------------------> */
+    /* <------------------------ K -----------------------> */
+    /* <------------------------ L -----------------------> */
     public static final Item LEAVES = new SolidFuelItem("Leaves",
             "https://satisfactory.wiki.gg/wiki/Leaves#/media/File:Leaves.png",
             List.of(ItemType.BIOMASS, ItemType.CRAFTING_COMPONENT, ItemType.FUEL),
@@ -132,4 +177,18 @@ public final class Items
             true,
             3,
             15L);
+    /* <------------------------ M -----------------------> */
+    /* <------------------------ N -----------------------> */
+    /* <------------------------ O -----------------------> */
+    /* <------------------------ P -----------------------> */
+    /* <------------------------ Q -----------------------> */
+    /* <------------------------ R -----------------------> */
+    /* <------------------------ S -----------------------> */
+    /* <------------------------ T -----------------------> */
+    /* <------------------------ U -----------------------> */
+    /* <------------------------ V -----------------------> */
+    /* <------------------------ W -----------------------> */
+    /* <------------------------ X -----------------------> */
+    /* <------------------------ Y -----------------------> */
+    /* <------------------------ Z -----------------------> */
 }
