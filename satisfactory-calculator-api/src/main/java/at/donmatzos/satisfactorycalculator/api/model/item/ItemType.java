@@ -2,6 +2,7 @@ package at.donmatzos.satisfactorycalculator.api.model.item;
 
 public enum ItemType
 {
+    ALIEN_TECH,
     BIOMASS,
     BUILDING_MATERIAL,
     CRAFTING_COMPONENT,
@@ -10,5 +11,6 @@ public enum ItemType
     FUEL,
     ORE,
     PROJECT_ASSEMBLY_PART,
-    RADIOACTIVE
+    RADIOACTIVE,
+    RESEARCH_MATERIAL
 }

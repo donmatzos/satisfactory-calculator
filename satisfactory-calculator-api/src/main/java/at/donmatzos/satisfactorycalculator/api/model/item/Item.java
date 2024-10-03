@@ -8,7 +8,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -21,7 +23,7 @@ public abstract class Item
     @Setter
     private String imageUrl;
 
-    private final List<ItemType> itemTypes = new ArrayList<>();
+    private final Set<ItemType> itemTypes = new HashSet<>();
 
     @JsonIgnore
     @Setter
